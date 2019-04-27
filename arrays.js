@@ -24,3 +24,16 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift()
   return array
 }
+
+function removeElementFromBeginningOfArray(array) {
+  return array = array.slice(0)
+}
+
+function destructivelyRemoveElementFromEndOfArray(array) {
+  return array = array.pop()
+}
+
+function removeElementFromEndOfArray(array) {
+  return array = array.slice(-1)
+}
+
